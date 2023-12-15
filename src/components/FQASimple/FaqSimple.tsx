@@ -7,8 +7,8 @@ const placeholder =
 export function FaqSimple() {
   return (
     <Container size="xl" className={classes.wrapper}>
-      <Grid >
-        <Grid.Col span={6}>
+      <Grid className={classes.gridCol}>
+        <Grid.Col  span={{ base: 12, md: 6 }}>
           <Title ta="center" className={classes.title}>
             Các câu hỏi thường gặp
           </Title>
@@ -40,7 +40,7 @@ export function FaqSimple() {
             </Accordion.Item>
           </Accordion>
         </Grid.Col>
-        <Grid.Col span={6}>
+        <Grid.Col  span={{ base: 12, md: 6 }}>
           <Image src={img} />
         </Grid.Col>
       </Grid>

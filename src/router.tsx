@@ -6,11 +6,11 @@ import { Frame } from "./frame";
 
 export const routes:RouteObject[] = [
     {
-        path:"login",
-        element: <LogIn/>,
-    },
-    {
         path:"",
         element: <Frame/>,
+    },
+    {
+        path:"login",
+        element: <LogIn/>,
     },
 ];

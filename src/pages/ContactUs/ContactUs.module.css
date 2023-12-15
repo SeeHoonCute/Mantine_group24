@@ -60,7 +60,7 @@
   }
   
   .control {
-    background-color: var(--mantine-color-blue-6);
+    background-color: var(--mantine-color-gray-5);
   }
   .wrapperButtonModule{
     padding: calc(var(--mantine-spacing-xl) * 2.5);

@@ -5,8 +5,8 @@ import { AuthenticationTitle } from "../../components/AuthenticationTitle/Authen
 export const LogIn = ()=>{
     return(
         <Grid>
-            <GridCol span={6}><CarouselCard/></GridCol>
-            <GridCol span={6}><AuthenticationTitle/></GridCol>
+            <GridCol span={{ base: 12, md: 6 }}><AuthenticationTitle/></GridCol>
+            <GridCol span={{ base: 12, md: 6 }}><CarouselCard/></GridCol>
         </Grid>
     );
 };

@@ -4,7 +4,6 @@
     padding-right: var(--mantine-spacing-md);
     border-bottom: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
   }
-  
   .link{
     display: flex;
     align-items: center;
@@ -35,4 +34,10 @@
       background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-7));
     }
   }
-  
+  .headerButton{
+    @media (max-width: $mantine-breakpoint-sm) {
+      position: absolute;
+     top: -9999px;
+     left: -9999px;
+    }
+  }
