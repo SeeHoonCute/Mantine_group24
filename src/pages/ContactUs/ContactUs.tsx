@@ -9,6 +9,7 @@ import {
   ActionIcon,
   UnstyledButton,
   Overlay,
+  BackgroundImage,
 } from '@mantine/core';
 import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram } from '@tabler/icons-react';
 import { ContactIconsList } from './ContactIcons';
